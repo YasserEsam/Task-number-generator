@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Assigner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Task Assigner</h1>
+        <input type="text" id="studentName" placeholder="Enter student name">
+        <button onclick="addStudent()">Add Student</button>
+        <button onclick="generateRandomNumbers()">Generate Tasks</button>
+        <button class="reset-btn" onclick="resetStudents()">Reset</button>
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Task Number</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
